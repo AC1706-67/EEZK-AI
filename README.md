@@ -1,4 +1,5 @@
-# EEZKAI  
+# EEZKAI 
+![License: Custom - NonCommercial](https://img.shields.io/badge/license-NonCommercial-blue)
 Anonymous AI Peer Support App – Emotional Ease, Zero-Knowledge Identity  
 
 ## ✨ EEZKAI – *Emotional Ease Zero-Knowledge AI*  
