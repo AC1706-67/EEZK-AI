@@ -61,3 +61,19 @@ This is a public good. You are welcome to fork it, remix it, or help improve it.
 > Because no one should have to face healing alone—or without privacy.
 
 ---
+## 🧠 Advanced Architecture: Zeke Core (Routing + Synthesis)
+
+EEZKAI includes a modular AI orchestration layer called **Zeke Core** — a small, fast LLM designed to intelligently route, coordinate, and synthesize responses from multiple specialized AI models.
+
+- 🧭 **Routing:** Zeke Core detects the user's intent, urgency, and tone, then routes the query to one or more expert LLMs (Peer Support, Medical, Resource Navigator, etc.).
+- 🧵 **Synthesis:** After gathering responses, Zeke Core combines them into a unified, human-centered reply — preserving tone, removing contradictions, and applying emotional context.
+
+This architecture ensures EEZKAI offers **reliable, emotionally intelligent, and privacy-first responses** — grounded in recovery values while leveraging the latest in AI orchestration.
+
+**Why it matters:**  
+- Faster performance through targeted routing  
+- Reduced bias by blending expert models  
+- Retains human tone and dignity in all replies  
+- Modular design allows future expansion with spiritual or legal agents
+
+This is peer-centered AI that doesn’t just answer — it understands, integrates, and respects.
