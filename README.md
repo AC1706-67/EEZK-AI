@@ -1,79 +1,81 @@
-# EEZKAI 
-![License: Custom - NonCommercial](https://img.shields.io/badge/license-NonCommercial-blue)
-Anonymous AI Peer Support App – Emotional Ease, Zero-Knowledge Identity  
 
-## ✨ EEZKAI – *Emotional Ease Zero-Knowledge AI*  
-> “KAI, your Quiet Guardian”  
-> Anonymous AI peer support built for recovery, privacy, and emotional resilience.
+# Zeke AI 🤖🛡️
 
----
+Zeke AI is a privacy-conscious AI assistant built **for peer support specialists**, not their clients. It’s designed to enhance real-time Motivational Interviewing (MI), help with GPRA and BARC tracking, and support accurate, HIPAA-aligned note-taking in the field — without disrupting the human flow of peer connection.
 
-## ❓ What is EEZKAI?
-
-**EEZKAI** is an AI-powered mobile app designed to provide **anonymous peer support**, especially for individuals in recovery or needing mental health guidance.  
-Built with **Zero-Knowledge principles**, users can receive support without revealing their identity—no names, no tracking, no logins.
-
-This project was created for the World’s Largest Hackathon on [Bolt.new](https://bolt.new).
+Whether you're supporting someone in crisis, documenting a session, or preparing wellness plans, Zeke AI empowers **you**, the peer worker, to stay present, sharp, and supported.
 
 ---
 
 ## 🧠 Core Philosophy
 
-- **Peer Support Enhancement** – Not a replacement, but a supportive layer for recovery coaching and human empathy.  
-- **Zero-Knowledge Identity** – No accounts, no names, no tracking.  
-- **Emotional Design** – A mysterious, trustworthy AI presence that feels human.  
-- **Privacy First** – Mobile-first design that protects user safety and agency.
+- **Peer Support Enhancement** – Not a replacement, but a supportive layer that strengthens your voice, reflections, and MI skills.
+- **For Peer Specialists, By Peer Specialists** – Designed by someone with lived experience to support the people doing the emotional and spiritual labor in recovery settings.
+- **Zero-Knowledge Identity** – Built to be anonymous and HIPAA-conscious from the start. No usernames, no logins, no tracking.
+- **GPRA + BARC Ready** – Track key data points passively during sessions, with timestamped logs for grant compliance and backend reporting.
+- **Emotional Design** – Zeke stays gentle, nonjudgmental, and recovery-minded — like a quiet assistant who’s got your back, not your job.
 
 ---
 
-## 🧩 Core Features
+## 🛠️ How It Works
 
-✅ Welcome screen with **Start Talking** button  
-✅ AI chat interface for anonymous mental health support  
-✅ Placeholder Anonymous ID feature  
-✅ “What is EEZKAI?” info modal explaining Zero-Knowledge  
-✅ Footer with GitHub, Devpost links, and Bolt.new badge
+Zeke AI uses a smart orchestration layer called **Zeke Core**, a lightweight LLM that routes your input to different “expert agents”:
 
----
+- 🧠 **MI-Coach LLM** — Helps you reflect, reframe, or strengthen MI techniques in real time  
+- 💬 **Note Helper LLM** — Suggests compliant, trauma-informed language for documentation  
+- 🧾 **GPRA/BARC Tracker LLM** — Automatically logs answers to grant-required data fields  
+- 🧭 **Resource Navigator LLM** — (Optional) Provides local recovery info on demand
 
-## 🎨 Design Elements
-
-- Dark mode with deep purples, blues, and soft glows  
-- Inter font for calm, clean typography  
-- Pulsing and glowing animations for emotional depth  
-- Optimized for mobile-first interaction
+Zeke Core gathers the best responses and blends them into one output — saving time, reducing burnout, and helping you serve with more presence and less paperwork.
 
 ---
 
-## 🧪 Technology
+## 🔐 Privacy-First Infrastructure
 
-- Built using [Bolt.new](https://bolt.new)  
-- Future plans for integration with ZK tech, LLMs, and on-device AI  
+- No client data is stored unless authorized  
+- Supabase handles role-based backend securely  
+- Optional Magic.link or fingerprint login for verified peer users  
+- Future integrations planned with ZKML and Polygon ID for local, encrypted AI sessions
+
+---
+
+## 🌍 Designed For
+
+- Recovery Community Organizations (RCOs)  
+- Detox centers and MAT programs  
+- Outreach teams and street peer specialists  
+- Faith-based recovery groups  
+- Anyone doing **peer work with heart** who needs a little digital help along the way
 
 ---
 
-## 🤝 Credits
+## 🚀 Built With
 
-Created by **Andrés Chávez** for a global community of those in recovery.  
-This is a public good. You are welcome to fork it, remix it, or help improve it.
-
-> EEZKAI stands for **Emotional Ease Zero-Knowledge AI**  
-> Because no one should have to face healing alone—or without privacy.
+- LLM Engine: Modular (Mistral, Ollama, GPT)  
+- Backend: Supabase, PostgreSQL, AWS Lambda  
+- Frontend: React Native / Kiosk Web App  
+- Privacy: Magic.link, Polygon ID, (ZKML coming soon)  
+- Built for: **HIPAA alignment**, **grant compliance**, and **peer-first care**
 
 ---
-## 🧠 Advanced Architecture: Zeke Core (Routing + Synthesis)
 
-EEZKAI includes a modular AI orchestration layer called **Zeke Core** — a small, fast LLM designed to intelligently route, coordinate, and synthesize responses from multiple specialized AI models.
+## 🔮 What’s Next
 
-- 🧭 **Routing:** Zeke Core detects the user's intent, urgency, and tone, then routes the query to one or more expert LLMs (Peer Support, Medical, Resource Navigator, etc.).
-- 🧵 **Synthesis:** After gathering responses, Zeke Core combines them into a unified, human-centered reply — preserving tone, removing contradictions, and applying emotional context.
+- Deploying Zeke AI kiosk and mobile beta via Recovery Haven  
+- Full integration with GPRA + BARC field mapping  
+- Optional note review dashboard for certified supervisors  
+- Role-specific LLMs for spiritual leaders, justice navigators, and more
 
-This architecture ensures EEZKAI offers **reliable, emotionally intelligent, and privacy-first responses** — grounded in recovery values while leveraging the latest in AI orchestration.
+---
 
-**Why it matters:**  
-- Faster performance through targeted routing  
-- Reduced bias by blending expert models  
-- Retains human tone and dignity in all replies  
-- Modular design allows future expansion with spiritual or legal agents
+## 🫂 About the Project
 
-This is peer-centered AI that doesn’t just answer — it understands, integrates, and respects.
+Zeke AI was created by **Andrés Chávez**, a recovery support peer specialist who believes that peers deserve the same tech support doctors and nurses get. This isn’t about replacing compassion — it’s about reinforcing it.
+
+**Zeke is ministry meets machine. Recovery meets real-time AI.**
+
+---
+
+## 📄 License
+
+NonCommercial — Built as a public good to serve the recovery and peer support movement. Fork it, remix it, help improve it — just keep it for the people.
