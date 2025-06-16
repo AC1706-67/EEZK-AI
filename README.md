@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20With-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/HIPAA--Aligned-Yes-00bfff?style=for-the-badge&logo=lock&logoColor=white" />
+  <img src="https://img.shields.io/badge/MI--Assistant-Enabled-purple?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/GPRA%20%2B%20BARC-Supported-blue?style=for-the-badge&logo=data&logoColor=white" />
+  <img src="https://img.shields.io/badge/ZKML--Ready-Experimental-yellow?style=for-the-badge&logo=zero&logoColor=white" />
+  <img src="https://img.shields.io/badge/Peer--Built-100%25-blueviolet?style=for-the-badge&logo=handshake&logoColor=white" />
+</p>
 
 # Zeke AI 🤖🛡️
 
